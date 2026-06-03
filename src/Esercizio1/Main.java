@@ -18,14 +18,8 @@ public class Main {
 
     }
 
-    // pari o dispari
-
     public static boolean stringaPariODispari(String text) {
-        if (text.length() % 2 == 0) {
-            return  true;
-        } else {
-            return false;
-        }
+        return text.length() % 2 == 0;
     };
 
     public static boolean annoBisestile(int year) {
@@ -33,11 +27,7 @@ public class Main {
             return true;
         } else if (year % 100 == 0) {
             return false;
-        } else if ( year % 4 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        } else return year % 4 == 0;
     }
 
 }
