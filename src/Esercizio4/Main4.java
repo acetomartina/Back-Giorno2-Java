@@ -14,7 +14,7 @@ public class Main4 {
 
     }
 
-     static public String contoAllaRovescia(int secondi) {
+      public static String contoAllaRovescia(int secondi) {
         secondi = Math.abs(secondi);
 
         if (secondi > 20) {
